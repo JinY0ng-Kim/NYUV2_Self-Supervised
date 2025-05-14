@@ -46,7 +46,7 @@ import torch
 
 class RGBDepthFromListDataset(Dataset):
     def __init__(self, args):
-        self.base_folder = args.input
+        self.base_folder = args.input_dir
         self.txt_path = args.txt_path
         self.pairs = []
 
